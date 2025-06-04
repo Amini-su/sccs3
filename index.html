@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+  <script src="animation-mixer.js"></script>
+  <script src="ar-shadows.js"></script>
+  <script src="model-viewer.js"></script>
+  <script src="background-gradient.js"></script>
+</head>
+<body>
+<a-scene
+  renderer="colorManagement: true;"
+  info-message="htmlSrc: #messageText"
+  model-viewer="gltfModel: #triceratops; title:Suraco.ir "
+  xr-mode-ui="XRMode: xr">
+  <a-assets>
+    <img id="shadow" src="shadow.png">
+    <a-asset-item id="messageText" src="message.html"></a-asset-item>
+  </a-assets>
+</a-scene>
+</body>
+</html>
