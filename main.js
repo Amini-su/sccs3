@@ -45,7 +45,7 @@ let modelScale = 1;
 const loader = new GLTFLoader();
 loader.load(
   // Model path
-  'Duck.glb',
+  'main.glb',
   
   // Success callback
   function (gltf) {
