@@ -45,7 +45,7 @@ let modelScale = 1;
 const loader = new GLTFLoader();
 loader.load(
   // Model path
-  'main.glb',
+  'model.glb',
   
   // Success callback
   function (gltf) {
