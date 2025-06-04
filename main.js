@@ -39,7 +39,7 @@ let lastMouseY = 0;
 let modelScale = 1;
 
 // Load 3D model
-const loader = new GLTFLoader();
+const loader = new THREE.GLTFLoader();
 loader.load(
   // Model path
   'model.glb',
