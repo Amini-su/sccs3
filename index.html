@@ -1,18 +1,13 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
-    <script src="animation-mixer.js"></script>
-    <script src="background-gradient.js"></script>
-    <script src="model-viewer.js"></script>
+    <title>3D Model Viewer</title>
+    <style>
+      body { margin: 0; }
+      canvas { display: block; }
+    </style>
   </head>
   <body>
-    <a-scene
-      renderer="colorManagement: true;"
-      model-viewer="gltfModel: #triceratops; title: Suraco.ir">
-      <a-assets>
-        <img id="shadow" src="shadow.png">
-        <a-asset-item id="triceratops" src="Duck.glb"></a-asset-item>
-      </a-assets>
-    </a-scene>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
